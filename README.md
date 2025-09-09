@@ -1,10 +1,10 @@
 # Linux Stress Test Scripts
 
-This repository contains two Bash scripts I created to stress test system resources for educational purposes in controlled environments (e.g., virtual machines or test systems). The scripts are:
+This repository contains three Bash scripts I created to stress test system resources for educational purposes in controlled environments (e.g., virtual machines or test systems). The scripts are:
 
 1. **`memory-stress.sh`**: Increases memory usage to 100%, designed for systems with 2 GB RAM.
 2. **`cpu-stress.sh`**: Pushes CPU usage to 100%.
-
+3. **`DOS.sh`**: URL load test.
 ⚠️ **Warning**: Do **not** run these scripts in a production environment, as they may cause system instability, crashes, or overheating.
 
 ## Installation
@@ -46,6 +46,11 @@ Stop: Press Ctrl+C to terminate.
 Video Tutorial: Watch my YouTube video for a detailed guide:
 
 https://www.youtube.com/watch?v=Yj0IGIyBD64
+
+
+DOS.sh (Denial of Service attack) 
+Floods the url with continous large headers to make server crash. 
+Save the file as DOS.sh give execute permissions and run bash DOS.sh <any_url>
 
 **Notes**
 
